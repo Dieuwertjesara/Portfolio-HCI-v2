@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="utf-8">
     <title>Portfolio HCI</title>
     <link rel="stylesheet" type="text/css" href="hci.css">
@@ -18,362 +19,515 @@
     <link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
     <!-- App & fonts-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
-    <link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css"> 
+    <link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css">
 
 </head>
 
 <body>
     <div id="whiteblock">
-    <div class="page-wrap" id="root">
+        <div class="page-wrap" id="root">
 
-        <!-- header -->
-        <header class="header header--fixed">
-            <div class="header__inner">
-                <div class="navbar-toggle" id="fs-button">
-                </div>
-            </div>
-
-            <div class="navbar">
-                <a href="index.html">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn"> 
-            </button><a href="topics.html">Topics</a>
-                    <div class="dropdown-content">
-                        <a href="exertiongames.html">Exertion games</a>
-                        <a href="arvr.html">AR & VR</a>
-                        <a href="wearables.html">Wearables</a>
-                        <a href="artificialcreatures.html">Artificial creatures</a>
+            <!-- header -->
+            <header class="header header--fixed">
+                <div class="header__inner">
+                    <div class="navbar-toggle" id="fs-button">
                     </div>
                 </div>
-                <div class="dropdown">
-                    <button class="dropbtn">
-            </button>
-                    <a href="workshops.html">Workshops</a>
-                    <div class="dropdown-content">
-                        <a href="computervision.html">Computer Vision</a>
-                        <a href="unity.html">Unity/Projection mapping</a>
-                        <a href="arduino.html">Arduino</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">
-            </button>
-                    <a href="excursion.html">Excursion</a>
-                    <div class="dropdown-content">
-                        <a href="excursion.html#assignments">Assignments</a>
-                        <a href="excursion.html#reflection">Reflection</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">
-            </button>
-                    <a href="labweeks.html">Lab weeks</a>
-                    <div class="dropdown-content">
-                        <a href="labweeks.html#process">Process</a>
-                        <a href="labweeks.html#products">Products</a>
-                        <a href="labweeks.html#reflection">Reflection</a>
-                    </div>
-                </div>
-            </div>
-            </div></div>
 
-
-
-        
-        <!-- End / header -->
-
-        <!-- intro page-->
-        
-        <img id="robot" src="img/robot.png">
-        <div class="wil-content">
-
-            <!-- Section -->
-                <section class="awe-section">
-                    <div class="container">
-
-                        <!-- page-title -->
-                        
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div class="page-title">
-                            <h2 class="page-title__title">Here you can read about my labweeks
-                                <!-- typing__module -->
-                                <div class="typing__module">
-                                    <div class="typed-strings"><span> process</span><span> end product </span><span> reflections</span>
-                                    </div><span class="typed"></span>
-                                </div>
-                                <!-- End / typing__module -->
-
-                            </h2>
-                            <p class="page-title__text"></p>
-                            <div class="page-title__divider"></div>
+                <div class="navbar">
+                    <a href="index.html">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                        </button><a href="topics.html">Topics</a>
+                        <div class="dropdown-content">
+                            <a href="playfullinteractions.html">Playfull Interactions</a>
+                            <a href="arvr.html">AR & VR</a>
+                            <a href="wearables.html">Wearables</a>
+                            <a href="artificialcreatures.html">Artificial creatures</a>
                         </div>
-                        <!-- End / page-title -->
-                        <iframe src="https://player.vimeo.com/video/343560576" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/343560576">HCI Labweeks - The Ninja Turtles</a> from <a href="https://vimeo.com/user83789056">Isabel Fretter</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  <h1>Process</h1>
-    <h1>
-    HCI Labweeks Diary
-    </h1>
-    <p>
-<h2>Week 1</h2>
-
-<h3>Day 1</h3>
-Monday June 3
-
-Introduction from Chris
-
-Subject: Artificial Creatures
-Group name: The Ninja Turtles
-Group:
-
-Dylan van Someren
-Isabel Fretter
-Marie Elise Rang
-Joshua Calgren
-Dieuwertje Broersma
-
-Introductions in the group. Everyone’s kind off on the same level when it comes to skill.
-
-We’re thinking of making something with a Ninja turtle theme
-
-Gonna test the piezo sensor which works with vibration.
-
-After 13:00 we decided to all experiment with different techniques. Isabel and Marie are researching and trying out how to use processing and arduino together. Josh is making a list of possible uses for the arduino sensors. So for example if we want to use the motion sensor we can already visualize ways to use it so it’s less abstract in our heads.
-Dylan is trying out some basic arduino tutorials we haven’t used in the assignments yet and figuring out the sensors we can use. This way we can take pictures of the boards when they work and combine them with the right code so when we have a concept we have the basic codes ready to use.
-
-I’m going to join in on the last thing and collect some working codes to use later this week.
-
-Tried the servo motor with the light sensor. Worked. Kinda iffy, but worked.
-
-Dylan tried soldering for sensors but it ended up not being our best option. We researched kinect which can be modified into an infrared camera and can work with processing, which can work with arduino.
-
-The kinect can be used with processing in two different ways, wich Marie will research one and Dylan the other. Josh is looking at possible uses and Isabel and I are gonna work on the processing / Arduino linking.
-The processing and arduino linking worked.
-https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all We used this tutorial
-
-Tomorrow we’re gonna start with the kinect and making it an infrared camera.
-
-<h3>Day 2</h3>
-Tuesday June 5
-
-Daily standup.
-Josh will continue with functions for arduino and ways we could potentially use it. Isabel and I will continue working on the arduino and processing connection.
-
-Dylan and Marie will continue working on the blob mechanisme.
-
-We’re not sure about making the kinect infrared yet, because it would be irreversible and we might have more use for the camera as is.
-
-Isabel and I tried the processing to arduino. It worked on mine but not on Isabel’s arduino and we couldn’t figure out why, cause the code’s the same. Turns out it’s because she had her arduino in a different usb port. Glad we figured that out on our own. 
-
-Kinect stuff. Is hard, almost works. Trouble with libraries.
-
-Tomorrow we maybe want to split into groups. 1 group researching and experimenting with movement and 1 group researching and experimenting with gestures.
-
-
-<h3>Day 3</h3>
-Wednesday June 6
-
-Isabel and I worked on the Kinect. We got it to recognize persons, skeletons and when someone’s waving.
-
-To test if we can use the Kinect input and make the Arduino react through processing we tried the example from yesterday which lets processing turn a LED on and off. Combining the code was a big success. We could turn the LED light on by waving to the Kinect and off by hiding our hand. This means the connection is do able and we can begin thinking about how we actually want to use it.
-
-Dylan researched the potential issue of how to use one string of input data to make multiple things respond and it almost seemed like a big hurdle, but we figured out that by just using the Kinect events as the base we could then use the if else technique on them. Both processing and Arduino would continue doing what they where told until we explicitly told them to stop, so that we doing a bunch of stuff simultaneously and independently of each other should work. 
-
-So for example, the Kinect has a function to recognize a new person and when it does we send a myPort(write) to the Arduino to turn on the led.
-As long as we don’t tell it to turn it off at some point it stays on, even when the person leaves. 
-
-The work we did started feeling kind of purposeless so we stuck the Kinect to a cardboard box and called him R5-D4 after the robot Luke’s uncle didn’t by in the star wars movies. Now he had a bit of a real feeling to it and we felt like working towards something.
-
-<h3>Day 4</h3>
-Thursday June 7
-Isabel worked on the sound and made sure she knew al the ins and out of that processing library. That way it would be easier than using Arduino. The Arduino speakers would be in the best case audible, but wouldn’t be great. We realized that by using processing we could use the laptop’s audio so basically any type of speaker available. 
-
-This was the first day we had a bit of a hold up communication wise. I had sometimes taken up the unofficial role of project leader so I could use my experience from last year and make sure the group learned as much from them as me. I decided for myself that since it was my second time I didn’t feel it was my place to make specific decisions about the end product and which type of product they wanted to make and instead focus on how to make the process getting there better. 
-Today everyone started feeling a lot of pressure about not having a specific concept yet, mostly because of groups around us who did. I tried reassuring them that there was no need to worry, but didn’t communicate that in an efficient way. 
-
-At the start we, after telling them about my past experience and about what this whole week is about, we agreed that a concrete concept to soon would limit us and our learning process and would maybe even slow us down later. That’s is why, when we started wanting a more concrete direction and actually starting building a creature, I suggested starting with a very basic base. A skeleton we could later on build stuff to so we could go from body part to body part based on what worked and didn’t. I thought it would help to still keep options open when we’d be faced with struggles or if we wanted to change things.
-The rest was thinking of making a design and already deciding about arm placement. Because I interpreted it as if they wanted to make a really specific complete design I was a bit worried. I saw a risk in building a detailed body all at once 1. Because the disappointment of something not working would be greater and harder to work around or change and 2. Because building the entire body all at once meant it would be harder to work together. Building it all at once would take a lot of time and there would be less working together and iterating involved. Code would take longer to test and I was afraid there could be times people didn’t have anything to do. This was a big problem last year and I wanted to convince them of my perspective really badly. Turns out they only wanted to include the arms and keep the rest as basic as possible.
-
-Because of the miscommunication we spend a lot of time saying almost the same thing but thinking we weren’t understood. Especially Dylan and I started to get frustrated with each other. After a while we decided to switch to dutch for a second after Isabel and Marie felt it might be that none of us could explain ourselves in our mother’s tongue. This helped a lot and I’m glad we got through it before the end of the day.
-
-I did feel like after this the whole group felt I wanted to push through my ideas and was trying to take the lead in all of it.  The rest of the day I tried backing down a bit and focusing on the Kinect code. At the end I briefly mentioned I don’t want to dictate how the creature should end up and that I just wanted to make sure we all had a positive experience these 2 weeks.
-
-After all that Marie told us she couldn’t figure out the hand tracking part of the leap motion library and we decided to drop it for now.
-
-We ended the day on a positive note but still a little lost when it comes to direction.
-
-
-<h3>Day 5</h3>
-Friday June 8
-The group felt pressure, but it also felt as if we all had faith in our ability to make something great.
-We used a little wire basket as a body and the cardboard was officially replaced. Marie suggested we’d use sound fragments from the game Portal. In the game there’s a robot who’s programmed to destroy the player. She says funny things like “Target acquired” and “Please put me down” but also random stuff like “Don’t make lemonade”. We hadn’t thought of a definite personality or use yet but thought for the mean time we could start making concrete functions. By adding in the sound files Isabelle could make a folder with files and writing code we could use later on. She experimented with specific sounds at specific moments and random sounds choses from a set group of sound files. We tested the code and when it worked as it should Isabel and I started combining her processing sound code with the Kinect code I was compiling.
-
-I had worked on combining the different example functions from the Kinect library and had a working code which could be used for both user based events and hand based events. 
-For now the functions that worked and the meaning of them are:
-
-User based
-The Kinect registers different people an gives every new person a user ID. He doesn’t recognize you as far as when you leave the visible area and come back he know you where there before but when that’re 4 people visible he can differentiate between them and gives them numbers. He knows when someone leaves that it’s for example specifically user2
-onNewUser = The Kinect registers a new person on camera and gives then a userID.
-onVisibleUser = The Kinect keeps tracking and recognizing users with a userID.
-onLostUser = The Kinect registers that a specific user has left.
-
-Hand based
-The Kinect also registers roughly the shape of a hand and because it has the ability to see depth it can even recognize is when you hold it in front of a body or and object and not just when you remove everything around it.
-
-onNewHand = The Kinect registers a new hand and gives it a handID
-This one is a bit tricky. We have a hard time figuring out if it actually registers the hands because it seems to only respond when you start waving. Since we’re using code from premade examples I don’t know if it’s possible to actually respond to the sight of a new hand.
-onTrackedHand = As soon as you wave the Kinect registers a new hand as above and immediately starts tracking the hand as long as it moves. It stops triggering this event when you stop waving but as long as your hand stays visible it wil remember your handID. When there’re 2 different hands and you stop waving and someone else continues it prints out that it is tracking a different handID.
-onLostHand = When it doesn’t see your hand anymore it triggers the onLostHand event. It will trigger every time it loses a hand so when there’s 4 hands and you hide the hands one at a time it triggers for every hand individually 
-
-
-At the end of the day we were very excited. We combined the processing code’s from me and Isabel and had responses for all the Kinect events. By adding the Kinect to the wire basket we had our first look at robot prototype. When he saw a user it triggered a random happy sound picked from a range of happy sounding sentences. When you waved it triggered one random sound picked from a range of greetings and when it lost you or your hand we had sad responses. To make it look permanently alive we also had it say stuff at random intervals when no one was interacting with it.
-
-We excitedly showed the teachers and there response to be honest was a little more underwhelmed than expected but we got some good feedback to further our process. They told us about MIT robots that had very animal or human like features and how some elements like ears and eyes and emotional sounds even when there where now word had a big impact. We at first where a bit disappointed but decided to think about that next week.
-Now it was time for a long deserved weekend.
-
-
-
-<h2>Week 2</h2>
-
-<h3>Day 6</h3>
-Tuesday June 11
-The stress was slowly showing  within the group but compared to last year I felt great. We all started to feel responsible for our own element of the creature. Dylan was focusing on the exterior and mechanics of the creature, Marie was a bit lost after the leap motion was parked, but started thinking of other features. She helped a bit with the audio but moved on to how we could implement light.
-Josh was working on the Arduino code for arm and ear movement, Isabel was in charge of audio and I worked on how we could combine everything and control it with the Kinect.
-
-We discussed the plan for the week and made some semi definitive decisions.
-The input would be Kinect. We wanted to focus on empathy and emotions and have a lot of thinks happening simultaneously. 
-We also discussed the feedback from the teachers from last Friday. We didn’t want to just blatantly try to copy the MIT robots but we did think of ways to use it as inspiration for the empathy and emotion part of our concept. I suggested for the sound we could maybe use the sentences only when people are interacting and when the robot was “alone” it would talk in noises instead of words. This way it would be les messy. The sentences would sometimes follow each other up to quickly because of the random interval function. We wanted it to seem “alive” all the time so with the noises it would simulate talking in his own little language when he’s alone, but still awake and alert. Also the idea of a clearly robotic mechanic creature which still made people empathize despite of it clearly being artificial did appeal to us.
-
-I figured out how to control the Kinect motor and got excited when I found a library which had functions as specific as recognizing someone opened there mouth, but after spending almost an entire day working on it it ended up being unusable. The motor control only worked with other drivers than the ones we used for hand and user recognition and the super detailed library turned out to be for the newer Kinect model only.
-We discussed as a group what we thought was more important and we all agreed the user and hand input where the most essential. 
-
-Tomorrow I’ll see if we can try using both my Kinect and the one Joël has and use separate laptops to use both motor control and visual control. For now motor control works with keyboard button events.
-
-
-<h3>Day 7</h3>
-Wednesday June 12
-Stress is starting to creep in and we have 2 full days left. Everything is mostly working but it still needs to be combined. I have tested all separate functions with the Kinect code but we now have to make specific decisions for our Minimum Viable Product. What is the essential base and what are would be nice if we have time elements. 
-We started with making sure we have 3 basic states. Neutral, Happy and Sad. I made sure we had a template for how every code should be written so it would we easy to combine. All the Arduino code was based on switch cases which would be triggered by a variable sent from processing. Processing had all the main Kinect events defined and per triggered event it would use myPort.write to send a specific message to Arduino. The variables we used where numbers. The different states then where connected to a specific number.
-Neutral = 0
-Happy = 1
-Sad = 2
-
-This meant that every happy response would be triggered when the corresponding event in processing was triggered.
-
-Later on we also made a state called greeting to make it a bit more versatile.
-Greeting was matched with the number 3.
-
-Now it was time to puzzle everything together.
-Marie had figured out some LED matrix code and was now working on LED strips for extra visual elements.
-Isabel worked on expanding the sound folder and implemented R2-D2 sounds as random interval sounds for when no one interacted with the little guy. We hopped off the R5-D4 name by the way. There is no replacement yet.
-
-Because combining the code and making sure every element had the right output response for the 4 different states took a lot of time and a lot of tweeking, some of the group members had there doubts about us finishing in time. I honestly felt like we couldn’t possible fail anymore since we’ve already greatlt exceeded our own expectation.
-
-At the end of the day it wasn’t perfect yet, but all the code was combined. It still needed tweeking, the arm positions where a mess and the LED matrix still showed the tutorial example. The audio sometimes malfunctioned and the ears were still just cardboard strips taped to the servo’s. But the hardest part was done. The arms moved to impossible angles but for every state in a different way. As with all the other things. We also tried to make the arm move continuously for some states but this was harder than expected.
-Because it’s my second time I knew I wanted to go the extra mile, so I took my Kinect and the body home and 
-worked a bit more on it at home. I tweaked the positions and got the fluent movement working so its looking
-good. 
-
-Dylan fixed the final design and soldered the needed wired to a soldering breadboard. All our components only 
-needed voltage and ground so he just soldered a whole bunch of cables so we would always have enough.
-
-We also picked the final name: M.A.R.V.I.N. 
-
-<h3>Day 8</h3>
-Thursday June 13
-Stress everywhere. I saved the working code to my home computer accidentally, but I made a video off it so we all knew it worked. We continued working on the rest and also on the exposition stand. It was sometimes hard to imagine with the arms and stuff not working perfectly, but the code was already written and at my house so it would be a waste to spend time redoing it. This day was very tiring. People started to become stressed and frustrated at times and I also started noticing I was more sensitive to distracting or frustrating things happening. On the last full day this was to be expected of course.
-
-At the end of the day I took our little Marv home once again. I always have trouble sleeping the night before big deadlines and I’d rather spend that time productive so we would have it easier on the last day than lie awake all night and be broken when it counts the most.
-
-This night I tried to make sure the wires where labeled for every corresponding code and pin numbers so that tomorrow we could easily make last minute tweaks or fix stuff without extra worry. After a few hours and a whole lot of tests because my desktop made it frustratingly slow everything worked exactly as we wanted.
-
-Tomorrow’s the big day!
-
-<h3>Day 9</h3>
-Friday June 14
-
-Expo day!
-The booth was basically fixed and the robot worked as planned so we finally had the time to see if we could add anything we liked and what would make the experience for the visitor better.
-
-We decided to put all the tech inside the basket and semi see trough plastic behind the wire so you couldn’t see all the wires and Arduino’s but with the LED strips added inside the wires would be visible in a veiny type of way.
-Better ear designs where made and the code was retested once all the wires where correctly reconnected. Everything worked perfectly….. until it didn’t.
-
-They warn you every year. Murphy’s law. "Anything that can go wrong will go wrong". And boy where they right.
-
-We where all tired, on edge, and the waiting made everything tense. Marvin working was keeping us, under the circumstances, pretty sane. But around 1 o’clock it went south. Suddenly the arms weren’t moving as they should. Nothing was changed, no new code was uploaded so it was very confusing. Then the upper arm wouldn’t even move. A few days prior we had an issue with the left upper arm not moving and it turned out that servo motor broke beyond repair. We fixed it up by putting the arm in a sling and using it to our advantage. This way we wouldn’t have to buy a new motor, spend time we didn’t have on fixing it and we had the added bonus of making it look like Marvin had injured himself, which brought up the empathy element we are going for.
-Now we feared it happened yet again. It seemed the only possibility with nothing else being changed before the malfunction. Then other parts started behaving the wrong way. Understandably, the group panicked a bit.
-I was the one who knew the most about the code since I combined and tweaked all of it, but I had no clue.
-
-At this moment I felt tired, agitated and a bit done with it. I wasn’t that stressed because I knew it worked before, we had proof and we had in my opinion a really successful HCI project no matter the how it ended.
-
-But, we of course wouldn’t just give up without trying. I asked Isabelle to sit with me and help me isolate the problem while Dylan helped with describing what Marvin did when we needed to know. (He was already hanged in place so not everything was easily visible behind the laptop). Everyone was constantly listing all the stuff that broke and I almost couldn’t deal with it but we thankfully got everyone on board to fix one issue at a time. Around this time the Kinect gave up as well because of driver issues and we had to do a quick switcheroo with Joël’s Kinect we thankfully still had.
-
-We started with the LED Matrix since that did work but not correctly so it should be fixable. We worked out way through the bugs starting from the ones we knew we could fix to the ones we didn’t know for sure.
-The last part was the arms. I knew it wasn’t the code but we also weren’t sure if the servo actually broke. Dylan and Isabel went back to basic with the arms and tested all of them with the simple example codes one by one. I was bit overworked at this point so we agreed they would work on that and I would go get some fresh air.
-
-After a break I joined the rest and they had figured out that 3 out of 4 servo’s work with the example codes and only the one we already knew off was broken. This was confusing but at least we could rule that out. We tried and tried and tried and at some point I felt it might be of more use to see if we can rewrite the positions so that we could still do something with both underarms. For some reason those where still responding to the code. 
-At the time I suggested it I was a bit pissed off the rest didn’t want to do that, but looking back I’m glad they did.
-
-It was time for pizza and I felt like I was going crazy if I continued so I said I wanted to stop for now, eat my pizza outside and only be called back in when it absolutely had to.
-
-I realized then that even though we had worked really well together and everyone had a significant part in making Marvin, put in the same effort and did more than everyone expected,  I had to big of a claim on the Kinect processing code and this was a big learning moment. Because that code was make or break for Marvin it was a bigger responsibility and livability than I had foreseen. Thankfully I did collaborate with Isabel a lot so she also new how it worked for the most part. When I left for dinner, even though they agreed and where also going to eat of course at some point, I still felt as if I almost abandoned them and dumped the problems on them.
-
-The combination of being tired, feeling guilty and frustrated and experiencing second hand stress is not a great one.
-
-Within 5 minutes of sitting outside I was called back in. They asked a teacher for help and Tim was nice enough to look through the code with the start of the expo being in less than an hour. He needed someone to explain the code so he could quickly understand it and see if he could find the error, but discovered, just when I arrived to explain my code, that the messages the Arduino received weren’t the numbers we were sending but a line of numbers resembling IP addresses or something. This being new information startled me, and with everything happening before and already being more than a little agitated I crossed my limit. Tim, trying to help, asked al lot of questions about this thing I hadn’t ever seen before and I thought I was called to explain the code I did know.
-I interrupted Tim and couldn’t keep myself composed, so to him my response was very aggressive.
-We eventually got back to a normal way of communicating and he tried to help us with in which direction we should look for a fix before he had to leave for picture time.
-
-We felt a little lost and thought let’s start up Marvin and do what Tim suggested. 
-When we did, for some reason we still don’t know, it all worked. Perfectly.
-
-It was a very emotional and stressful day but the fact that we all pulled through, despite being exhausted and getting knocked down in every possible way within a span of 3 hours, we had an amazing happy ending and our dear Marv made us proud by working without any issues the entire expo.
-
-I’m also thankful for the way the group stepped in with the presenting part during the expo when I was clearly to tired and emotional to do it without crying. We really worked as a group and filled in for each other when we needed it.
-
-Couldn’t have had a better LAST time HCI 😉
-
-    </p>
-               <img src="img/day1_1.jpg">     
-                    <img src="img/day1_2.jpg">
-                    <img src="img/day1_3.jpg">
-                    <img src="img/day1_4.jpg">
-                    <img src="img/day1_5.jpg">
-                    <img src="img/day1_6.jpg">    
-                    <img src="img/day1_7.jpg">     
-   
-
-    <h1>Product</h1>
-        <h1>
-            Product description
-        </h1>
-        <p><br>
-            ○ Describe how your product works. And how users interacted with it. 
-            <br>
-            ○ Illustrate your product with pictures, videos, blueprints, charts, schematics, etc. 
-            <br>
-            ○ Include the final video (groupproduct) </p>
-                    
-    <h1>Reflection</h1>
-        <p>
-            ○ Are you content with your product? And why? Does it achieve what you set out to do? 
-            <br>
-            ○ What is the quality of your product? Try to quantify/objectively express this. 
-            <br>
-            ○ Reflect on the process that you have gone through and compare your work/effort to that of the group.  
-            <br>
-            ○ How did you spend your time, tell something about this? 
-            <br>
-            ○ Were you motivated? Were your expectations met? Did you have a good time? Did you learn a lot? Why? Why not? 
-        </p>
                     </div>
-                </section>
-            </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                        </button>
+                        <a href="workshops.html">Workshops</a>
+                        <div class="dropdown-content">
+                            <a href="computervision.html">Computer Vision</a>
+                            <a href="vrenviroments.html">VR enviroments</a>
+                            <a href="arduino.html">Arduino</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                        </button>
+                        <a href="excursion.html">Excursion</a>
+                        <div class="dropdown-content">
+                            <a href="excursion.html#assignments">Assignments</a>
+                            <a href="excursion.html#reflection">Reflection</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                        </button>
+                        <a href="labweeks.html">Lab weeks</a>
+                        <div class="dropdown-content">
+                            <a href="labweeks.html#process">Process</a>
+                            <a href="labweeks.html#products">Products</a>
+                            <a href="labweeks.html#reflection">Reflection</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
-        
+
+
+
+
+    <!-- End / header -->
+
+    <!-- intro page-->
+
+    <img id="robot" src="img/robot.png">
+    <div class="wil-content">
+
+        <!-- Section -->
+        <section class="awe-section">
+            <div class="container">
+
+                <!-- page-title -->
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="page-title">
+                    <h2 class="page-title__title">Here you can read about my labweeks
+                        <!-- typing__module -->
+                        <div class="typing__module">
+                            <div class="typed-strings"><span> process</span><span> end product </span><span> reflections</span>
+                            </div><span class="typed"></span>
+                        </div>
+                        <!-- End / typing__module -->
+
+                    </h2>
+                    <p class="page-title__text"></p>
+                    <div class="page-title__divider"></div>
+                </div>
+                <!-- End / page-title -->
+                <iframe src="https://player.vimeo.com/video/343560576" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/343560576">HCI Labweeks - The Ninja Turtles</a> from <a href="https://vimeo.com/user83789056">Isabel Fretter</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                <h1>Process</h1>
+                <h1>
+                    HCI Labweeks Diary
+                </h1>
+
+                <h2>Week 1</h2>
+
+                <h3>Day 1</h3>
+                <p>
+                    <b>Monday June 3</b>
+                    <br><br>
+                    Introduction from Chris
+                    <br><br>
+                    Subject: Artificial Creatures<br>
+                    Group name: The Ninja Turtles<br>
+                    Group:
+                    <br><br>
+                    Dylan van Someren<br>
+                    Isabel Fretter<br>
+                    Marie Elise Rang<br>
+                    Joshua Calgren<br>
+                    Dieuwertje Broersma
+                    <br><br>
+                    Introductions in the group. Everyone’s kind off on the same level when it comes to skill.
+                    <br><br>
+                    We’re thinking of making something with a Ninja turtle theme
+                    <br><br>
+                    Gonna test the piezo sensor which works with vibration.
+                    <br><br>
+                    After 13:00 we decided to all experiment with different techniques. Isabel and Marie are researching and trying out how to use processing and arduino together. Josh is making a list of possible uses for the arduino sensors. So for example if we want to use the motion sensor we can already visualize ways to use it so it’s less abstract in our heads.
+                    Dylan is trying out some basic arduino tutorials we haven’t used in the assignments yet and figuring out the sensors we can use. This way we can take pictures of the boards when they work and combine them with the right code so when we have a concept we have the basic codes ready to use.
+                    <br><br>
+                    I’m going to join in on the last thing and collect some working codes to use later this week.
+                    <br><br>
+                    Tried the servo motor with the light sensor. Worked. Kinda iffy, but worked.
+                    <br><br>
+                    Dylan tried soldering for sensors but it ended up not being our best option. We researched kinect which can be modified into an infrared camera and can work with processing, which can work with arduino.
+                    <br><br>
+                    The kinect can be used with processing in two different ways, wich Marie will research one and Dylan the other. Josh is looking at possible uses and Isabel and I are gonna work on the processing / Arduino linking.
+                    The processing and arduino linking worked.
+                    <br><br>
+                    https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all We used this tutorial
+                    <br><br>
+                    Tomorrow we’re gonna start with the kinect and making it an infrared camera.
+                </p>
+                <img src="img/labweeks/img/03-06-19_1.1.jpg">
+                <img src="img/labweeks/img/03-06-19_1.2.jpg">
+                <img src="img/labweeks/img/03-06-19_1.3.jpg">
+                <img src="img/labweeks/img/03-06-19_1.4.jpg">
+                <img src="img/labweeks/img/03-06-19_1.5.jpg">
+                <img src="img/labweeks/img/03-06-19_1.6.jpg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/03-06-19_1.1.mp4" type="video/mp4">
+
+                </video>
+
+                <h3>Day 2</h3>
+                <p>
+                    <b>Tuesday June 4</b>
+                    <br><br>
+                    Daily standup.
+                    Josh will continue with functions for arduino and ways we could potentially use it. Isabel and I will continue working on the arduino and processing connection.
+                    <br><br>
+                    Dylan and Marie will continue working on the blob mechanisme.
+                    <br><br>
+                    We’re not sure about making the kinect infrared yet, because it would be irreversible and we might have more use for the camera as is.
+                    <br><br>
+                    Isabel and I tried the processing to arduino. It worked on mine but not on Isabel’s arduino and we couldn’t figure out why, cause the code’s the same. Turns out it’s because she had her arduino in a different usb port. Glad we figured that out on our own.
+                    <br><br>
+                    Kinect stuff. Is hard, almost works. Trouble with libraries.
+                    <br><br>
+                    Tomorrow we maybe want to split into groups. 1 group researching and experimenting with movement and 1 group researching and experimenting with gestures.
+
+                </p>
+                <img src="img/labweeks/img/04-06-19_2.1.jpg">
+                <img src="img/labweeks/img/04-06-19_2.2.jpg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/04-06-19_2.1.mp4" type="video/mp4">
+
+                </video>
+
+
+                <h3>Day 3</h3>
+                <p>
+                    <b>Wednesday June 5</b>
+                    <br><br>
+                    Isabel and I worked on the Kinect. We got it to recognize persons, skeletons and when someone’s waving.
+                    <br><br>
+                    To test if we can use the Kinect input and make the Arduino react through processing we tried the example from yesterday which lets processing turn a LED on and off. Combining the code was a big success. We could turn the LED light on by waving to the Kinect and off by hiding our hand. This means the connection is do able and we can begin thinking about how we actually want to use it.
+                    <br><br>
+                    Dylan researched the potential issue of how to use one string of input data to make multiple things respond and it almost seemed like a big hurdle, but we figured out that by just using the Kinect events as the base we could then use the if else technique on them. Both processing and Arduino would continue doing what they where told until we explicitly told them to stop, so that we doing a bunch of stuff simultaneously and independently of each other should work.
+                    <br><br>
+                    So for example, the Kinect has a function to recognize a new person and when it does we send a myPort(write) to the Arduino to turn on the led.
+                    As long as we don’t tell it to turn it off at some point it stays on, even when the person leaves.
+                    <br><br>
+                    The work we did started feeling kind of purposeless so we stuck the Kinect to a cardboard box and called him R5-D4 after the robot Luke’s uncle didn’t by in the star wars movies. Now he had a bit of a real feeling to it and we felt like working towards something.
+                </p>
+                <img src="img/labweeks/img/05-06-19_3.1.jpg">
+                <img src="img/labweeks/img/05-06-19_3.2.jpeg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/05-06-19_3.1.mp4" type="video/mp4">
+
+                </video>
+
+
+                <h3>Day 4</h3>
+                <p>
+                    <b>Thursday June 6</b>
+                    <br><br>
+                    Isabel worked on the sound and made sure she knew al the ins and out of that processing library. That way it would be easier than using Arduino. The Arduino speakers would be in the best case audible, but wouldn’t be great. We realized that by using processing we could use the laptop’s audio so basically any type of speaker available.
+                    <br><br>
+                    This was the first day we had a bit of a hold up communication wise. I had sometimes taken up the unofficial role of project leader so I could use my experience from last year and make sure the group learned as much from them as me. I decided for myself that since it was my second time I didn’t feel it was my place to make specific decisions about the end product and which type of product they wanted to make and instead focus on how to make the process getting there better.
+                    Today everyone started feeling a lot of pressure about not having a specific concept yet, mostly because of groups around us who did. I tried reassuring them that there was no need to worry, but didn’t communicate that in an efficient way.
+                    <br><br>
+                    At the start we, after telling them about my past experience and about what this whole week is about, we agreed that a concrete concept to soon would limit us and our learning process and would maybe even slow us down later. That’s is why, when we started wanting a more concrete direction and actually starting building a creature, I suggested starting with a very basic base. A skeleton we could later on build stuff to so we could go from body part to body part based on what worked and didn’t. I thought it would help to still keep options open when we’d be faced with struggles or if we wanted to change things.
+                    The rest was thinking of making a design and already deciding about arm placement. Because I interpreted it as if they wanted to make a really specific complete design I was a bit worried. I saw a risk in building a detailed body all at once 1. Because the disappointment of something not working would be greater and harder to work around or change and 2. Because building the entire body all at once meant it would be harder to work together. Building it all at once would take a lot of time and there would be less working together and iterating involved. Code would take longer to test and I was afraid there could be times people didn’t have anything to do. This was a big problem last year and I wanted to convince them of my perspective really badly. Turns out they only wanted to include the arms and keep the rest as basic as possible.
+                    <br><br>
+                    Because of the miscommunication we spend a lot of time saying almost the same thing but thinking we weren’t understood. Especially Dylan and I started to get frustrated with each other. After a while we decided to switch to dutch for a second after Isabel and Marie felt it might be that none of us could explain ourselves in our mother’s tongue. This helped a lot and I’m glad we got through it before the end of the day.
+                    <br><br>
+                    I did feel like after this the whole group felt I wanted to push through my ideas and was trying to take the lead in all of it. The rest of the day I tried backing down a bit and focusing on the Kinect code. At the end I briefly mentioned I don’t want to dictate how the creature should end up and that I just wanted to make sure we all had a positive experience these 2 weeks.
+                    <br><br>
+                    After all that Marie told us she couldn’t figure out the hand tracking part of the leap motion library and we decided to drop it for now.
+                    <br><br>
+                    We ended the day on a positive note but still a little lost when it comes to direction.
+                </p>
+
+                <img src="img/labweeks/img/06-06-19_4.1.jpg">
+                <img src="img/labweeks/img/06-06-19_4.2.jpg">
+                <img src="img/labweeks/img/06-06-19_4.3.jpg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/06-06-19_4.1.mp4" type="video/mp4">
+
+                </video>
+
+
+                <h3>Day 5</h3>
+                <p>
+                    <b>Friday June 7</b> <br><br>
+                    The group felt pressure, but it also felt as if we all had faith in our ability to make something great.
+                    We used a little wire basket as a body and the cardboard was officially replaced. Marie suggested we’d use sound fragments from the game Portal. In the game there’s a robot who’s programmed to destroy the player. She says funny things like “Target acquired” and “Please put me down” but also random stuff like “Don’t make lemonade”. We hadn’t thought of a definite personality or use yet but thought for the mean time we could start making concrete functions. By adding in the sound files Isabelle could make a folder with files and writing code we could use later on. She experimented with specific sounds at specific moments and random sounds choses from a set group of sound files. We tested the code and when it worked as it should Isabel and I started combining her processing sound code with the Kinect code I was compiling.
+                    <br><br>
+                    I had worked on combining the different example functions from the Kinect library and had a working code which could be used for both user based events and hand based events.
+                    For now the functions that worked and the meaning of them are:
+                    <br><br>
+                    User based
+                    The Kinect registers different people an gives every new person a user ID. He doesn’t recognize you as far as when you leave the visible area and come back he know you where there before but when that’re 4 people visible he can differentiate between them and gives them numbers. He knows when someone leaves that it’s for example specifically user2
+                    onNewUser = The Kinect registers a new person on camera and gives then a userID.
+                    onVisibleUser = The Kinect keeps tracking and recognizing users with a userID.
+                    onLostUser = The Kinect registers that a specific user has left.
+                    <br><br>
+                    Hand based
+                    The Kinect also registers roughly the shape of a hand and because it has the ability to see depth it can even recognize is when you hold it in front of a body or and object and not just when you remove everything around it.
+                    <br><br>
+                    onNewHand = The Kinect registers a new hand and gives it a handID
+                    This one is a bit tricky. We have a hard time figuring out if it actually registers the hands because it seems to only respond when you start waving. Since we’re using code from premade examples I don’t know if it’s possible to actually respond to the sight of a new hand.
+                    onTrackedHand = As soon as you wave the Kinect registers a new hand as above and immediately starts tracking the hand as long as it moves. It stops triggering this event when you stop waving but as long as your hand stays visible it wil remember your handID. When there’re 2 different hands and you stop waving and someone else continues it prints out that it is tracking a different handID.
+                    onLostHand = When it doesn’t see your hand anymore it triggers the onLostHand event. It will trigger every time it loses a hand so when there’s 4 hands and you hide the hands one at a time it triggers for every hand individually
+                    <br><br>
+                    <br><br>
+                    At the end of the day we were very excited. We combined the processing code’s from me and Isabel and had responses for all the Kinect events. By adding the Kinect to the wire basket we had our first look at robot prototype. When he saw a user it triggered a random happy sound picked from a range of happy sounding sentences. When you waved it triggered one random sound picked from a range of greetings and when it lost you or your hand we had sad responses. To make it look permanently alive we also had it say stuff at random intervals when no one was interacting with it.
+                    <br><br>
+                    We excitedly showed the teachers and there response to be honest was a little more underwhelmed than expected but we got some good feedback to further our process. They told us about MIT robots that had very animal or human like features and how some elements like ears and eyes and emotional sounds even when there where now word had a big impact. We at first where a bit disappointed but decided to think about that next week.
+                    Now it was time for a long deserved weekend.
+                </p>
+
+                <img src="img/labweeks/img/07-06-19_5.1.jpg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/07-06-19_5.1.mp4" type="video/mp4">
+
+                </video>
+
+
+
+                <h2>Week 2</h2>
+
+                <h3>Day 6</h3>
+                <p>
+                    <b>Tuesday June 11</b>
+                    <br><br>
+                    The stress was slowly showing within the group but compared to last year I felt great. We all started to feel responsible for our own element of the creature. Dylan was focusing on the exterior and mechanics of the creature, Marie was a bit lost after the leap motion was parked, but started thinking of other features. She helped a bit with the audio but moved on to how we could implement light.
+                    Josh was working on the Arduino code for arm and ear movement, Isabel was in charge of audio and I worked on how we could combine everything and control it with the Kinect.
+                    <br><br>
+                    We discussed the plan for the week and made some semi definitive decisions.
+                    The input would be Kinect. We wanted to focus on empathy and emotions and have a lot of thinks happening simultaneously.
+                    We also discussed the feedback from the teachers from last Friday. We didn’t want to just blatantly try to copy the MIT robots but we did think of ways to use it as inspiration for the empathy and emotion part of our concept. I suggested for the sound we could maybe use the sentences only when people are interacting and when the robot was “alone” it would talk in noises instead of words. This way it would be les messy. The sentences would sometimes follow each other up to quickly because of the random interval function. We wanted it to seem “alive” all the time so with the noises it would simulate talking in his own little language when he’s alone, but still awake and alert. Also the idea of a clearly robotic mechanic creature which still made people empathize despite of it clearly being artificial did appeal to us.
+                    <br><br>
+                    I figured out how to control the Kinect motor and got excited when I found a library which had functions as specific as recognizing someone opened there mouth, but after spending almost an entire day working on it it ended up being unusable. The motor control only worked with other drivers than the ones we used for hand and user recognition and the super detailed library turned out to be for the newer Kinect model only.
+                    We discussed as a group what we thought was more important and we all agreed the user and hand input where the most essential.
+                    <br><br>
+                    Tomorrow I’ll see if we can try using both my Kinect and the one Joël has and use separate laptops to use both motor control and visual control. For now motor control works with keyboard button events.
+                </p>
+
+                <img src="img/labweeks/img/11-06-19_6.1.jpg">
+                <img src="img/labweeks/img/11-06-19_6.2.jpeg">
+                <img src="img/labweeks/img/11-06-19_6.3.jpeg">
+                <img src="img/labweeks/img/11-06-19_6.4.jpeg">
+                <img src="img/labweeks/img/11-06-19_6.5.jpg">
+
+
+                <h3>Day 7</h3>
+                <p>
+                    <b>Wednesday June 12</b>
+                    <br><br>
+                    Stress is starting to creep in and we have 2 full days left. Everything is mostly working but it still needs to be combined. I have tested all separate functions with the Kinect code but we now have to make specific decisions for our Minimum Viable Product. What is the essential base and what are would be nice if we have time elements.
+                    We started with making sure we have 3 basic states. Neutral, Happy and Sad. I made sure we had a template for how every code should be written so it would we easy to combine. All the Arduino code was based on switch cases which would be triggered by a variable sent from processing. Processing had all the main Kinect events defined and per triggered event it would use myPort.write to send a specific message to Arduino. The variables we used where numbers. The different states then where connected to a specific number.<br>
+                    Neutral = 0<br>
+                    Happy = 1<br>
+                    Sad = 2
+                    <br><br>
+                    This meant that every happy response would be triggered when the corresponding event in processing was triggered.
+                    <br><br>
+                    Later on we also made a state called greeting to make it a bit more versatile.
+                    Greeting was matched with the number 3.
+                    <br><br>
+                    Now it was time to puzzle everything together.
+                    Marie had figured out some LED matrix code and was now working on LED strips for extra visual elements.
+                    Isabel worked on expanding the sound folder and implemented R2-D2 sounds as random interval sounds for when no one interacted with the little guy. We hopped off the R5-D4 name by the way. There is no replacement yet.
+                    <br><br>
+                    Because combining the code and making sure every element had the right output response for the 4 different states took a lot of time and a lot of tweeking, some of the group members had there doubts about us finishing in time. I honestly felt like we couldn’t possible fail anymore since we’ve already greatlt exceeded our own expectation.
+                    <br><br>
+                    At the end of the day it wasn’t perfect yet, but all the code was combined. It still needed tweeking, the arm positions where a mess and the LED matrix still showed the tutorial example. The audio sometimes malfunctioned and the ears were still just cardboard strips taped to the servo’s. But the hardest part was done. The arms moved to impossible angles but for every state in a different way. As with all the other things. We also tried to make the arm move continuously for some states but this was harder than expected.
+                    Because it’s my second time I knew I wanted to go the extra mile, so I took my Kinect and the body home and
+                    worked a bit more on it at home. I tweaked the positions and got the fluent movement working so its looking
+                    good.
+                    <br><br>
+                    Dylan fixed the final design and soldered the needed wired to a soldering breadboard. All our components only
+                    needed voltage and ground so he just soldered a whole bunch of cables so we would always have enough.
+                    <br><br>
+                    We also picked the final name: <b>M.A.R.V.I.N.</b>
+                </p>
+                <img src="img/labweeks/img/12-06-19_7.1.jpg">
+                <img src="img/labweeks/img/12-06-19_7.2.jpg">
+                <img src="img/labweeks/img/12-06-19_7.3.jpg">
+                <img src="img/labweeks/img/12-06-19_7.4.jpg">
+                <img src="img/labweeks/img/12-06-19_7.5.jpg">
+                <img src="img/labweeks/img/12-06-19_7.6.jpg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/12-06-19_7.1.mp4" type="video/mp4">
+
+                </video>
+
+
+
+                <h3>Day 8</h3>
+                <p>
+                    <b>Thursday June 13</b>
+                    <br><br>
+                    Stress everywhere. I saved the working code to my home computer accidentally, but I made a video off it so we all knew it worked. We continued working on the rest and also on the exposition stand. It was sometimes hard to imagine with the arms and stuff not working perfectly, but the code was already written and at my house so it would be a waste to spend time redoing it. This day was very tiring. People started to become stressed and frustrated at times and I also started noticing I was more sensitive to distracting or frustrating things happening. On the last full day this was to be expected of course.
+                    <br><br>
+                    At the end of the day I took our little Marv home once again. I always have trouble sleeping the night before big deadlines and I’d rather spend that time productive so we would have it easier on the last day than lie awake all night and be broken when it counts the most.
+                    <br><br>
+                    This night I tried to make sure the wires where labeled for every corresponding code and pin numbers so that tomorrow we could easily make last minute tweaks or fix stuff without extra worry. After a few hours and a whole lot of tests because my desktop made it frustratingly slow everything worked exactly as we wanted.
+                    <br><br>
+                    <b>Tomorrow’s the big day!</b>
+                </p>
+                <img src="img/labweeks/img/13-06-19_8.1.jpeg">
+                <img src="img/labweeks/img/13-06-19_8.2.jpeg">
+                <img src="img/labweeks/img/13-06-19_8.3.jpeg">
+                <img src="img/labweeks/img/13-06-19_8.4.jpeg">
+                <img src="img/labweeks/img/13-06-19_8.5.jpeg">
+                <img src="img/labweeks/img/13-06-19_8.6.jpeg">
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/13-06-19_8.1.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/13-06-19_8.2.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/13-06-19_8.3.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/13-06-19_8.4.mp4" type="video/mp4">
+
+                </video>
+                <h3>Day 9</h3>
+                <p>
+                    <b>Friday June 14</b>
+                    <br><br>
+                    Expo day!
+                    The booth was basically fixed and the robot worked as planned so we finally had the time to see if we could add anything we liked and what would make the experience for the visitor better.
+                    <br><br>
+                    We decided to put all the tech inside the basket and semi see trough plastic behind the wire so you couldn’t see all the wires and Arduino’s but with the LED strips added inside the wires would be visible in a veiny type of way.
+                    Better ear designs where made and the code was retested once all the wires where correctly reconnected. Everything worked perfectly….. <br><br>until it didn’t.
+                    <br><br>
+                    They warn you every year. Murphy’s law. "Anything that can go wrong will go wrong". And boy where they right.
+                    <br><br>
+                    We where all tired, on edge, and the waiting made everything tense. Marvin working was keeping us, under the circumstances, pretty sane. But around 1 o’clock it went south. Suddenly the arms weren’t moving as they should. Nothing was changed, no new code was uploaded so it was very confusing. Then the upper arm wouldn’t even move. A few days prior we had an issue with the left upper arm not moving and it turned out that servo motor broke beyond repair. We fixed it up by putting the arm in a sling and using it to our advantage. This way we wouldn’t have to buy a new motor, spend time we didn’t have on fixing it and we had the added bonus of making it look like Marvin had injured himself, which brought up the empathy element we are going for.
+                    Now we feared it happened yet again. It seemed the only possibility with nothing else being changed before the malfunction. Then other parts started behaving the wrong way. Understandably, the group panicked a bit.
+                    I was the one who knew the most about the code since I combined and tweaked all of it, but I had no clue.
+                    <br><br>
+                    At this moment I felt tired, agitated and a bit done with it. I wasn’t that stressed because I knew it worked before, we had proof and we had in my opinion a really successful HCI project no matter the how it ended.
+                    <br><br>
+                    But, we of course wouldn’t just give up without trying. I asked Isabelle to sit with me and help me isolate the problem while Dylan helped with describing what Marvin did when we needed to know. (He was already hanged in place so not everything was easily visible behind the laptop). Everyone was constantly listing all the stuff that broke and I almost couldn’t deal with it but we thankfully got everyone on board to fix one issue at a time. Around this time the Kinect gave up as well because of driver issues and we had to do a quick switcheroo with Joël’s Kinect we thankfully still had.
+                    <br><br>
+                    We started with the LED Matrix since that did work but not correctly so it should be fixable. We worked out way through the bugs starting from the ones we knew we could fix to the ones we didn’t know for sure.
+                    The last part was the arms. I knew it wasn’t the code but we also weren’t sure if the servo actually broke. Dylan and Isabel went back to basic with the arms and tested all of them with the simple example codes one by one. I was bit overworked at this point so we agreed they would work on that and I would go get some fresh air.
+                    <br><br>
+                    After a break I joined the rest and they had figured out that 3 out of 4 servo’s work with the example codes and only the one we already knew off was broken. This was confusing but at least we could rule that out. We tried and tried and tried and at some point I felt it might be of more use to see if we can rewrite the positions so that we could still do something with both underarms. For some reason those where still responding to the code.
+                    At the time I suggested it I was a bit pissed off the rest didn’t want to do that, but looking back I’m glad they did.
+                    <br><br>
+                    It was time for pizza and I felt like I was going crazy if I continued so I said I wanted to stop for now, eat my pizza outside and only be called back in when it absolutely had to.
+                    <br><br>
+                    I realized then that even though we had worked really well together and everyone had a significant part in making Marvin, put in the same effort and did more than everyone expected, I had to big of a claim on the Kinect processing code and this was a big learning moment. Because that code was make or break for Marvin it was a bigger responsibility and livability than I had foreseen. Thankfully I did collaborate with Isabel a lot so she also new how it worked for the most part. When I left for dinner, even though they agreed and where also going to eat of course at some point, I still felt as if I almost abandoned them and dumped the problems on them.
+                    <br><br>
+                    The combination of being tired, feeling guilty and frustrated and experiencing second hand stress is not a great one.
+                    <br><br>
+                    Within 5 minutes of sitting outside I was called back in. They asked a teacher for help and Tim was nice enough to look through the code with the start of the expo being in less than an hour. He needed someone to explain the code so he could quickly understand it and see if he could find the error, but discovered, just when I arrived to explain my code, that the messages the Arduino received weren’t the numbers we were sending but a line of numbers resembling IP addresses or something. This being new information startled me, and with everything happening before and already being more than a little agitated I crossed my limit. Tim, trying to help, asked al lot of questions about this thing I hadn’t ever seen before and I thought I was called to explain the code I did know.
+                    I interrupted Tim and couldn’t keep myself composed, so to him my response was very aggressive.
+                    We eventually got back to a normal way of communicating and he tried to help us with in which direction we should look for a fix before he had to leave for picture time.
+                    <br><br>
+                    We felt a little lost and thought let’s start up Marvin and do what Tim suggested.
+                    When we did, for some reason we still don’t know, it all worked. Perfectly.
+                    <br><br>
+                    It was a very emotional and stressful day but the fact that we all pulled through, despite being exhausted and getting knocked down in every possible way within a span of 3 hours, we had an amazing happy ending and our dear Marv made us proud by working without any issues the entire expo.
+                    <br><br>
+                    I’m also thankful for the way the group stepped in with the presenting part during the expo when I was clearly to tired and emotional to do it without crying. We really worked as a group and filled in for each other when we needed it.
+                    <br><br>
+                    Couldn’t have had a better <i><b>LAST</b></i> time HCI 😉
+                </p>
+                <img src="img/labweeks/img/14-06-19_9.1.jpg">
+                <img src="img/labweeks/img/14-06-19_9.2.jpg">
+                <img src="img/labweeks/img/14-06-19_9.3.jpeg">
+                <img src="img/labweeks/img/14-06-19_9.4.jpeg">
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.1.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.2.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.3.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.4.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.5.mov" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.6.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.7.mp4" type="video/mp4">
+
+                </video>
+                <video class="arduino-vid" controls="">
+
+                    <source src="img/labweeks/vid/14-06-19_9.8.mp4" type="video/mp4">
+
+                </video>
+
+
+                <h1>M.A.R.V.I.N</h1>
+                <p>
+                    Our final product after the 2 labweeks is our little interactive artificial creature named M.A.R.V.I.N. He's made up of wires, arduino's, a LED Matrix, LED strips, wood, duct tape, cables, a wire basket, paper, cardboard, a kinect and ofcourse blood, pain, tears, sweat and a little bit of love.
+                    <br><br>
+                    Marvin is a social creature and responds emotionally to the people he meets. If she thinks she's alone she makes little mumbling robot noices as if she's talking to herself. Every once in a while she calls out in human sentences to see if she gets a response. She also likes music and if she's been bored for a while she'll sing classics like "Uptown Girl" by Billy Joel and "All By Myself" by Celine Dion.
+                    <br><br>
+                    If you stand in front of Marvin she recognizes you as a person and instantly becomes a happy little Marv. She responds bij wagging her ears up and down and smiling. She also speaks to you and greats you differently every time. Sometimes she's a little random in her responses and she can come off as a bit hostile or slightly evil, but that just means she likes you, don't worry.
+                    <br><br>
+                    Just standing there probably gets boring after a while. If you feel like it you can also wave at Marvin and when she sees you waving she gets even more excited than before. She'll start wagging her ears from left to right and will wave back at you for as long as you are waving at her. When you stop she stops and when you start again she'll mirror you.
+                    <br><br>
+                    If you're done interacting with Marvin you can always just walk away. This does mean you have to deal with the guilt of making Marv very sad. If you walk away she won't worry at first. She's confidend you won't just leave her. But after a while she'll get worried and lose trust in you coming back. When she realizes you're gone and won't come back she'll respond with heartbreaking sadness. She'll lose her smile and drops her arms and ears down. She'll call out a last effort to communicate with you by saying things like "goodnight" "bye" "target lost" or the worst of all "Take me with you!". If that makes you sad, remember: That's on you buddy.
+                    <br><br>
+                    All jokes aside, our project was made with the goal to let people interact with a robot and project human emotions onto it. It is visually very obviously a robot and this was done on purpose. We did add little human or animal like charactristics like the ears and arms and the LED matrix for a mouth. We used a kinect for the purpose of recognizing human shapes and waving and to see depth, but also as a head for Marvin since the shape is quite robot head like and the camera's in the front looked like eyes in combination with the ears and arms. These basic elements where enough for people to recognize and symphatize with Marvin's emotional responses.
+                </p>
+                <iframe src="https://player.vimeo.com/video/343560576" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/343560576">HCI Labweeks - The Ninja Turtles</a> from <a href="https://vimeo.com/user83789056">Isabel Fretter</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                <h1>Reflection</h1>
+                <p>
+                    ○ Are you content with your product? And why? Does it achieve what you set out to do?
+                    <br>
+                    ○ What is the quality of your product? Try to quantify/objectively express this.
+                    <br>
+                    ○ Reflect on the process that you have gone through and compare your work/effort to that of the group.
+                    <br>
+                    ○ How did you spend your time, tell something about this?
+                    <br>
+                    ○ Were you motivated? Were your expectations met? Did you have a good time? Did you learn a lot? Why? Why not?
+                </p>
+            </div>
+        </section>
+    </div>
+    </div>
+
     <!-- Vendors-->
     <script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
@@ -389,7 +543,4 @@ Couldn’t have had a better LAST time HCI 😉
     <script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
     <!-- App-->
     <script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-
-</html>
-   
+</body></html>
