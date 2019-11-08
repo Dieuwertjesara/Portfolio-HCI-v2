@@ -50,7 +50,7 @@
 
 <body>
 
-<div id="whiteblock">
+    <div id="whiteblock">
         <div class="page-wrap" id="root">
 
             <!-- header -->
@@ -139,173 +139,162 @@
 
 
 
-        <img id="robot" src="img/robot.png">
+    <img id="robot" src="img/robot.png">
 
-        <div class="wil-content">
+    <div class="wil-content">
 
 
 
-            <!-- Section -->
+        <!-- Section -->
 
 
 
-            <section class="awe-section">
+        <section class="awe-section">
 
-                <div class="container">
+            <div class="container">
 
 
 
-                    <!-- page-title -->
+                <!-- page-title -->
 
 
 
-                    <br>
+                <br>
 
-                    <br>
+                <br>
 
-                    <br>
+                <br>
 
-                    <br>
+                <br>
 
-                    <div class="page-title">
+                <div class="page-title">
 
-                        <h2 class="page-title__title">Computer Vision
+                    <h2 class="page-title__title">Computer Vision
 
-                            <br><br>Here you can read about my
+                        <br><br>Here you can read about my
 
-                            <br>
+                        <br>
 
-                            <!-- typing__module -->
+                        <!-- typing__module -->
 
-                            <div class="typing__module">
+                        <div class="typing__module">
 
-                                <div class="typed-strings"><span> assignments</span>
+                            <div class="typed-strings"><span> assignments</span>
 
-                                </div><span class="typed"></span>
+                            </div><span class="typed"></span>
 
 
 
-                            </div>
+                        </div>
 
-                            <!-- End / typing__module -->
+                        <!-- End / typing__module -->
 
 
 
-                        </h2>
+                    </h2>
 
-                        <p class="page-title__text"></p>
+                    <p class="page-title__text"></p>
 
-                        <div class="page-title__divider"></div>
-
-                    </div>
-
-                    <!-- End / page-title -->
-
-                    <h2>Assignments</h2>
-
-                    <h1>Assignment 1</h1>
-
-                    <p></p>
-
-                    <img class="arduino-img" src="img/processing/computervision_1_code.PNG">
-
-
-
-                    <h1>Assignment 2</h1>
-
-                    <p></p>
-
-                    <img class="arduino-img" src="img/processing/computervision_2_code.PNG">
-
-
-
-                    <h1>Assignment 3</h1>
-
-                    <p></p>
-
-                    <img class="arduino-img" src="img/processing/computervision_3_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_3_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <h1>Assignment cv1</h1>
-
-                    <p>With this excersize I have to change the basic example code. In the example code they use face detection and put a green rectangle around a detected face. My assignment is to change it to a circle. I changed the rect code to ellipse. This turned the rectangle in a circle but it wasn't nicely centered around the face annymore. That's why I added +50 to both the x-axis and y-axis. These were calculated by the face location data, but the circle stayed in the upper left corner of the face. Bij adding 50 to the face location data the circle went down to the centre of the face but on the left side still. So I had to add it to the x-axis aswell to get it more centered.</p>
-
-                    <img class="arduino-img" src="img/processing/computervision_cv1_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_cv1_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <p>I looked around on the internet why this happened and later realized that by changing the rectacle to an ellipse was not enough. I also had to add the ellipseMode(CORNER) to make it work. I added that and removed the +50's and now it works the way it should.</p>
-
-                    <img class="arduino-img" src="img/processing/computervision_cv1b_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_cv1b_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <h1>Assignment cv2</h1>
-
-                    <p>With this assignment I had to change the code so that there would be a black box over the eyes of the person on screen and a red circle on the nose. This took a while and it is not perfect, but it works. I used the face option again instead of the eyes for the black bar, because this way it would be one sollid bar instead of two rectangles. This is because when you use the eye function it applies it per eye instead of per pair of eyes. I did use CASCADE_EYE aswell, because this way the bar starts at the height of the registered eyes. I first tried to just use a face covering rechtangle and scale it down to start at 1/3 or 1/4 of the face, but this did not always cover the eyes from every distance or on every face since the eyes don't always start on 1/3 or 1/4 of everyone's face. I did use /3 for the height of the bar because this rougly translated to for sure go over the bottom part of the eye so the eye wouldn't be visible, but the bar also wouldn't be covering the nose or mouth. It basically shows 1 third off the length of the face so this should be applicably to most faces. The nose is in the same for loop as the rest because this for some reason made the nose more stable. Before this I'd put it in a seperate for loop, but it detected multpiple things as noses so it was very glitchy. Now the nose mostly stays put and there's minimal extra noses, but it does cause an error if I move to much to the sides or if I move to far to the back. I'm still happy with the result because even if it works with limits, I still got it to work better than before.</p>
-
-                    <img class="arduino-img" src="img/processing/computervision_cv2_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_cv2_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <h1>Assignment bonus</h1>
-
-                    <p></p>
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_bonus_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <h1>Assignment cv3</h1>
-
-                    <p id="incomplete">INCOMPLETE</p>
-
-                    <img class="arduino-img" src="img/processing/computervision_cv3_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_cv3_video.mp4" type="video/mp4">
-
-                    </video>
-
-                    <h1>Assignment AR</h1>
-
-                    <p id="incomplete">INCOMPLETE</p>
-
-                    <img class="arduino-img" src="img/processing/computervision-ar_code.png">
-
-                    <video class="arduino-vid" controls="">
-
-                        <source src="vid/processing_ar_video.mov" type="video/mov">
-
-                    </video>
+                    <div class="page-title__divider"></div>
 
                 </div>
 
-            </section>
+                <!-- End / page-title -->
 
-        </div>
+                <h2>Assignments</h2>
 
-        </div>
+                <h1>Assignment 1</h1>
+
+                <p></p>
+
+                <img class="arduino-img" src="img/processing/computervision_1_code.PNG">
+
+
+
+                <h1>Assignment 2</h1>
+
+                <p></p>
+
+                <img class="arduino-img" src="img/processing/computervision_2_code.PNG">
+
+
+
+                <h1>Assignment 3</h1>
+
+                <p></p>
+
+                <img class="arduino-img" src="img/processing/computervision_3_code.png">
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="vid/processing_3_video.mp4" type="video/mp4">
+
+                </video>
+
+                <h1>Assignment cv1</h1>
+
+                <p>With this excersize I have to change the basic example code. In the example code they use face detection and put a green rectangle around a detected face. My assignment is to change it to a circle. I changed the rect code to ellipse. This turned the rectangle in a circle but it wasn't nicely centered around the face annymore. That's why I added +50 to both the x-axis and y-axis. These were calculated by the face location data, but the circle stayed in the upper left corner of the face. Bij adding 50 to the face location data the circle went down to the centre of the face but on the left side still. So I had to add it to the x-axis aswell to get it more centered.</p>
+
+                <img class="arduino-img" src="img/processing/computervision_cv1_code.png">
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="vid/processing_cv1_video.mp4" type="video/mp4">
+
+                </video>
+
+                <p>I looked around on the internet why this happened and later realized that by changing the rectacle to an ellipse was not enough. I also had to add the ellipseMode(CORNER) to make it work. I added that and removed the +50's and now it works the way it should.</p>
+
+                <img class="arduino-img" src="img/processing/computervision_cv1b_code.png">
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="vid/processing_cv1b_video.mp4" type="video/mp4">
+
+                </video>
+
+                <h1>Assignment cv2</h1>
+
+                <p>With this assignment I had to change the code so that there would be a black box over the eyes of the person on screen and a red circle on the nose. This took a while and it is not perfect, but it works. I used the face option again instead of the eyes for the black bar, because this way it would be one sollid bar instead of two rectangles. This is because when you use the eye function it applies it per eye instead of per pair of eyes. I did use CASCADE_EYE aswell, because this way the bar starts at the height of the registered eyes. I first tried to just use a face covering rechtangle and scale it down to start at 1/3 or 1/4 of the face, but this did not always cover the eyes from every distance or on every face since the eyes don't always start on 1/3 or 1/4 of everyone's face. I did use /3 for the height of the bar because this rougly translated to for sure go over the bottom part of the eye so the eye wouldn't be visible, but the bar also wouldn't be covering the nose or mouth. It basically shows 1 third off the length of the face so this should be applicably to most faces. The nose is in the same for loop as the rest because this for some reason made the nose more stable. Before this I'd put it in a seperate for loop, but it detected multpiple things as noses so it was very glitchy. Now the nose mostly stays put and there's minimal extra noses, but it does cause an error if I move to much to the sides or if I move to far to the back. I'm still happy with the result because even if it works with limits, I still got it to work better than before.</p>
+
+                <img class="arduino-img" src="img/processing/computervision_cv2_code.png">
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="vid/processing_cv2_video.mp4" type="video/mp4">
+
+                </video>
+
+                <h1>Assignment bonus</h1>
+
+                <p></p>
+
+                <video class="arduino-vid" controls="">
+
+                    <source src="vid/processing_bonus_video.mp4" type="video/mp4">
+
+                </video>
+
+                <h1>Assignment cv3</h1>
+
+                <p>I could not test this assignment because I did not have a webcam when making it. I did include a screenshot of the code. The code should if performed have an image of the webcam footage and in the background an image of a robot. The code will continously search for the lightest point in the frame so when you move something in front of the lightest point it wil jump to the next lightest point.</p>
+
+                <img class="arduino-img" src="img/processing/computervision_cv3_code.png">
+
+
+                <h1>Assignment AR</h1>
+
+                <p>Lastly I had to make an image come to life. The image had to be visable like a 3D Augmented Reality object on my phone.</p>
+                <img class="arduino-img" src="img/processing/computervision_ar_code.png">
+                <img class="arduino-img" src="img/processing/computervision_ar_1.png">
+                <img class="arduino-img" src="img/processing/computervision_ar_2.png">
+            </div>
+
+        </section>
+
+    </div>
+
+    </div>
 
     <!-- Vendors-->
 
